@@ -23,6 +23,24 @@ Ce projet a été conçu pour :
 - **npm** Environnement d'exécution JavaScript côté serveur.
 - **Express.js** Framework minimaliste pour construire des applications web rapides et flexibles.
 
+## Fonctionnement
+
+### Installation
+
+1. Clonez ce dépôt :
+   ```bash
+   git clone https://github.com/DzmitryiKorjik/node.js_express.js.git
+   ```
+2. Accédez au répertoire du projet :
+   ```bash
+   cd node.js_express.js
+   ```
+3. Si des dépendances sont listées dans un fichier package.json, exécutez la commande suivante pour les installer : `npm install`  
+
+4. Lancez l'application avec Node.js en exécutant : `node index`
+
+5. Accédez à l'application : Ouvrez un navigateur et rendez-vous sur `http://localhost:3000` pour voir l'application en fonctionnement.
+
 ## Auteur
 - **Nom :** Mardovitch Dzmitryi
 - **Formation :** Développement Web et Web Mobile.
