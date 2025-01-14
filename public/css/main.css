@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header span {
+    position: absolute;
+    left: 25px;
+}
+
+header nav a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 50px;
+}
+form {
+    position: absolute;
+    right: 25px;
+}
+
+form input {
+    width: 150px;
+    height: auto;
+    padding: 7px;
+    border: 1px solid red;
+    border-radius: 10px;
+
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main p {
+    margin-top: 50px;
+    max-width: 450px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
